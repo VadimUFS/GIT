@@ -1,30 +1,18 @@
-#Получить с клавиатуры 6 чисел.
-#Вывести на экран их в возрастающем порядке
 
-
-#a = []
-#print('!!!!!введите 6 целых чисел!!!!!!')
-
-#for i in range (0, 6):
-#	b = int(input())
-#	a.append(b)
-#	a.sort()
-
-#print(a)
 
 #Дан строка, она состоит только из букв английского алфавита.
 #Первый участник пишет сбор статистики - какие буквы сколько
 #раз встречаются.
 
-name = input('Enter a suggestion')
-book = input('Enter the letter to count')
+name = input('Enter a suggestion:')
+book = input('Enter the letter to count:')
 s = 0
 for i in name:
 	if i in book:
 		s += 1
 print(s)
 
-s = input('введите предложение')
+s = input('введите предложение:')
 i = 0
 letter = 0
 letter1 = 0
